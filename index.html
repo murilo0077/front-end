@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho de Sociologia e Front End</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #000;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid #ccc;
+    }
+
+    header {
+      text-align: center;
+      background-color: rgb(15, 184, 15);
+      color: white;
+      padding: 15px 0;
+      margin-bottom: 20px;
+    }
+
+    header img {
+      width: 100px;
+      margin-bottom: 10px;
+      border: 2px solid white;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Modo escuro */
+    .dark-mode {
+      background-color: #222;
+      color: #fff;
+    }
+
+    .dark-mode .container {
+      background-color: #333;
+      border-color: #555;
+    }
+
+    .dark-mode h3 {
+        color: #00a2ff;
+    }
+
+    /* Botões */
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px 5px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin: 0;
+    }
+    h2 {
+      color: #007bff;
+      border-bottom: 1px solid #007bff;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    h3 {
+      color: #555;
+      margin-top: 20px;
+      border-bottom: 1px dotted #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="a.png" alt="Logo do Projeto">
+    <h1>Trabalho de sociologia e front end</h1>
+    <p>Diversidade, Gênero, Etnia e Povos Indígenas</p>
+
+    <!-- Botões interativos -->
+    <button id="btnPlayPause">▶️ Tocar/Pausar Música</button>
+    <button id="btnModo">🌙 Alternar Modo Escuro</button>
+  </header>
+
+  <!-- Player de música -->
+  <section id="player-musica">
+    <audio id="musica" loop>
+      <source src="a.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <div class="container" id="conteudo">
+
+    <section id="pesquisa">
+      <p style="font-style: italic; color: #777;">trabaio aqui o</p>
+      
+      <h3>1. Diversidade de Gênero</h3>
+      <p>A análise sociológica da diversidade de gênero exige, primordialmente, a distinção clara entre <strong>sexo biológico</strong> e <strong>gênero</strong>. Enquanto o primeiro se refere às características biológicas (cromossomos, anatomia), o gênero é uma construção social e cultural que dita o que é considerado "masculino" ou "feminino" em uma dada sociedade.</p>
+      <p>A diversidade reside no fato de que a identidade de gênero – o senso interno e individual de ser homem, mulher, ambos, ou nenhum – nem sempre corresponde ao sexo atribuído ao nascer. A existência de pessoas transgênero e não-binárias desafia a rigidez do sistema binário de gênero imposto pela sociedade.</p>
+      <p>No cotidiano, o não-acatamento a essa norma binária gera uma série de violências estruturais, como a transfobia, que se manifesta na exclusão do mercado de trabalho, na violência física e na negação de direitos básicos. A reflexão sobre o tema é essencial para construir relações sociais pautadas na equidade e no reconhecimento pleno da dignidade humana.</p>
+
+      <h3>2. Etnia</h3>
+      <p>O conceito de etnia é central para a Sociologia, pois fornece uma ferramenta de análise que vai além das classificações simplistas baseadas em aparência. Etnia se refere a um grupo social que compartilha laços culturais, históricos, ancestrais, e, muitas vezes, uma língua ou tradição comum, gerando um forte senso de identidade e pertencimento.</p>
+      <p>É crucial estabelecer a distinção sociológica entre <strong>etnia e raça</strong>. Enquanto a noção de raça foi historicamente utilizada como um construto social para hierarquizar e justificar a dominação e o racismo, a etnia é um marcador de herança e cultura. No entanto, é impossível analisar a etnia sem considerar como o racismo – manifestação de preconceito racial e/ou étnico – afeta profundamente a vida das pessoas.</p>
+      <p>O preconceito étnico, no cotidiano brasileiro, se manifesta de forma sutil ou explícita, limitando o acesso a oportunidades educacionais, profissionais e políticas para grupos minorizados. Compreender a etnicidade é entender a pluralidade cultural de uma nação e como as diferentes identidades étnicas convivem em meio a estruturas que tentam apagá-las ou submetê-las.</p>
+
+      <h3>3. Povos Indígenas</h3>
+      <p>A pauta dos povos indígenas é inseparável da história e da formação social do Brasil. A Sociologia deve reconhecer a imensa diversidade dessas populações, que não são homogêneas, mas sim compostas por centenas de etnias, cada uma com sua língua, cosmovisão e organização social única.</p>
+      <p>O cerne da luta indígena na contemporaneidade é a garantia de seus direitos originários, sobretudo a demarcação e proteção de suas terras. A terra para esses povos transcende o valor econômico; é o território sagrado que sustenta sua identidade cultural, sua memória histórica e sua sobrevivência física e social.</p>
+      <p>No cotidiano, os povos indígenas enfrentam a constante pressão de invasores de terras, o desrespeito à sua cultura e um forte preconceito social que insiste em relegá-los ao passado, ignorando sua participação ativa e crítica na sociedade atual. A Constituição Federal de 1988 reconhece seus direitos, mas a efetivação dessa garantia legal é um dilema sociológico e político permanente que demanda vigilância e ação contínua da sociedade brasileira.</p>
+    </section>
+  </div>
+
+  <div class="container">
+    <h1>VIDEOS</h1>
+    <iframe width="560" height="315" src="a.mp4" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="c.mp4" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="b.mp4" allowfullscreen></iframe>
+  </div>
+
+  <div class="container">
+    <h2>Créditos</h2>
+    <p style="color:#a88080;">Murilo Otavio <span style="color: rgb(240, 164, 164);">N23</span></p>
+    <p style="color:#a88080;">Eduardo Henrique <span style="color: rgb(240, 160, 160);">N7</span></p>
+    <p style="color:#a88080;">Guilherme Luiz <span style="color: rgb(240, 150, 150);">N13</span></p>
+    <p style="color:#a88080;">João Vitor <span style="color: rgb(240, 147, 147);">N15</span></p>
+  </div>
+
+  <script>
+    // 🎵 Controle de Música
+    const musica = document.getElementById("musica");
+    const btnPlayPause = document.getElementById("btnPlayPause");
+
+    btnPlayPause.addEventListener("click", () => {
+      if (musica.paused) {
+        musica.play();
+        btnPlayPause.textContent = "⏸️ Pausar Música";
+      } else {
+        musica.pause();
+        btnPlayPause.textContent = "▶️ Tocar Música";
+      }
+    });
+
+    // 🌙 Alternar Modo Escuro
+    const btnModo = document.getElementById("btnModo");
+
+    btnModo.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      if (document.body.classList.contains("dark-mode")) {
+        btnModo.textContent = "☀️ Modo Claro";
+      } else {
+        btnModo.textContent = "🌙 Modo Escuro";
+      }
+    });
+  </script>
+</body>
+</html>
